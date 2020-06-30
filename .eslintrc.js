@@ -1,19 +1,19 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   rules: {
-    quotes: [2, "single", { avoidEscape: true }],
+    quotes: [2, 'single', { avoidEscape: true }],
   },
   extends: [
-    "airbnb/hooks",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended",
+    'airbnb/hooks',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: "module",
+    sourceType: 'module',
     ecmaFeatures: {
       modules: true,
     },
-    extraFileExtensions: ["ts", "tsx"],
+    extraFileExtensions: ['ts', 'tsx'],
   },
 };
